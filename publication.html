@@ -6,12 +6,15 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.0.1">
-    <title>Blog Template · Bootstrap</title>
+    
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/">
 
     <!-- Bootstrap core CSS -->
-<link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>ANLAB</title>
 
     <style>
       .bd-placeholder-img {
@@ -54,34 +57,94 @@
     </div>
   </header>
 
-  
-
-  <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 background_img">
-    
-    <h3 class="py-3 text-center font-weight-bold "> Welcome to ANLAB !</h3>
-    
-    
-  </div>
-
 
 <main role="main" class="container">
   <div class="first_row">
-    <div class="col-sm-12 text-center">
-      who we are
+    <div class="col-sm-12 text-left title">
+      Publications
     </div>
-    <div class="col-sm-12 text-center">
-      We are ~~
+    <div class="col-sm-12 text-centerv researh_field">
+      
+      <div class=field_button1>
+        Research Field     
+      </div>
+       
+      <div class="field_button">
+        <div class="but">
+          <input type="radio" id="all" name="amount" />
+          <label for="all">all</label>
+        </div>
+        <div class="but">
+          <input type="radio" id="sys" name="amount" />
+          <label for="sys">system network</label>
+        </div>
+        <div class="but">
+          <input type="radio" id="data" name="amount" checked="checked" />
+          <label for="data">data network</label>
+        </div>
+     </div>   
     </div>
+    <div class="col-sm-12 text-centerv contents" id="publication_list">
+      <div class="paper_year" id="2020">2020</div>
+      <div class="papers">
+        <div class="paper_title">title</div>
+        <div class="paper_writer">writer1, writer2</div>
+        <div class="paper_academy"> NIPS 2018</div>
+        <div> pdf, code, ppt</div>
+      </div>
+      <div class="papers">
+        <div class="paper_title">title</div>
+        <div class="paper_writer">writer1, writer2</div>
+        <div class="paper_academy"> NIPS 2018</div>
+        <div> pdf, code, ppt</div>
+      </div>
+    </div>
+    
     
   </div>
 
 </main><!-- /.container -->
 
 <footer class="blog-footer">
-  <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-  <p>
-    <a href="#">Back to top</a>
-  </p>
+  <script>
+    $( "footer" ).load( "./footer.html" );
+  </script>
 </footer>
 </body>
 </html>
+
+<script>
+  var publications = document.querySelector("#publication_list");
+  //git에서 불러오기
+  /*var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json'; 
+  var request = new XMLHttpRequest();
+  request.open('GET', requestURL);
+  request.responseType = 'json';
+  request.send();
+  request.onload = function() {
+    var superHeroes = request.response;
+    populateHeader(superHeroes);
+    showHeroes(superHeroes);
+  }
+  */
+  function write_year(jsonobj){
+    var year = document.createElement('div');
+    year.className='paper_year';
+    year.id = jsonobj["year"];
+    publications.appendChild(year);
+  }
+  function write_paper(jsonobj){
+    var paper= document.createElement($papers)
+    jsonobj["title"]
+    publications.append
+  }
+  function show(jsonobj){
+    var list = jsonobj;
+    for (var i=0; i<list.length; i++){
+      write_year(list[i]);
+    };
+  }
+  var json = require('./data/publications.json'); 
+  console.log(json);
+  show(json)
+</script>

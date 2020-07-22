@@ -1,23 +1,123 @@
-/* stylelint-disable selector-list-comma-newline-after */
+:root{
+  --blue: #4169E1;
+}
+
+
+
+.container{
+  font-family: 'Barlow', sans-serif;
+}
 
 .blog-header {
   line-height: 1;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 3px solid #e5e5e5;
 }
 
 .blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-family: 'Archivo Black', sans-serif;
   font-size: 2.25rem;
 }
 
 .blog-header-logo:hover {
   text-decoration: none;
-  font-weight: bold !important;
+  
+}
+.text-secondary {
+  padding-bottom: 0px !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+
+/* contents */
+.title{
+  font-size: 1.4rem;
+  padding: 15px 15px 0px;
+  color: var(--blue);
 }
+
+.researh_field{
+  height:50px;
+  margin-left: auto;
+  margin-right: auto;
+  width:450px;
+  font-size: 0.9rem;
+}
+
+.field_button {
+     
+  display:inline-block;
+  margin:5px 0 0 0;
+  padding: 1px 5px;
+  height:40px;
+     
+}
+.field_button1{
+  float: left;
+  display: inline-block;
+  margin: 0px;
+  padding: 13px 1px;
+  height: 40px
+}
+
+.but {
+    margin:1px;
+    display: inline-block;
+    float:left;
+    height:40px;
+}
+
+
+.field_button label, .field_button input {
+    
+}
+
+.field_button input[type="radio"] {
+    opacity:0.011;
+    z-index:100;
+    width:0px;
+}
+
+.field_button input[type="radio"]:checked + label {
+    background:grey;
+    color:white;
+}
+
+.field_button label {
+     padding: 0 7px;
+     border:2px solid grey;
+     color: grey;
+     border-radius:5px;
+     cursor:pointer;
+      z-index:90;
+
+}
+
+.field_button label:hover {
+     filter:brightness(85%);
+     
+}
+
+/*publication*/
+.papers{
+  font-size:0.8rem;
+  padding:10px;
+}
+.paper_title{
+  font-weight: bold;
+  color:var(--blue);
+  font-size:1.0rem;
+}
+.paper_writer{
+  font-weight:bold;
+}
+.paper_academy{
+  color:grey;
+}
+.paper_year{
+  font-size:1.2rem;
+  color:lightslategray;
+}
+
+
 
 .display-4 {
   font-size: 2.5rem;
@@ -25,6 +125,9 @@ h1, h2, h3, h4, h5, h6 {
 .background_img{
   background-image: url('../img/backimg.png') !important;
 }
+
+
+
 
 @media (min-width: 768px) {
   .display-4 {
@@ -40,7 +143,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .remove_underline{
   text-decoration: none !important;
+  font-family: 'Noto Sans', sans-serif;
+  
 }
+.remove_underline:hover{
+  font-weight: bold !important;
+}
+
 .nav-scroller .nav {
   display: -ms-flexbox;
   display: flex;
@@ -59,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: .75rem;
   padding-bottom: .75rem;
   font-size: .875rem;
-  
+  font-family: 'Lexend Zetta', sans-serif !important;
   
 }
 
