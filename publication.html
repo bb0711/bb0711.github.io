@@ -116,19 +116,21 @@
 </html>
 
 <script>
+
+
   var publications = document.querySelector("#publication_list");
   //git에서 불러오기
-  /*var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json'; 
+  var requestURL = 'https://github.com/bb0711/bb0711.github.io/blob/master/data/publications.json'; 
   var request = new XMLHttpRequest();
   request.open('GET', requestURL);
   request.responseType = 'json';
   request.send();
   request.onload = function() {
-    var superHeroes = request.response;
-    populateHeader(superHeroes);
-    showHeroes(superHeroes);
+    var papers = request.response;
+    show(papers);
+    console.log(papers);
   }
-  */
+  
   function write_year(jsonobj){
     var year = document.createElement('div');
     year.className='paper_year';
@@ -146,7 +148,4 @@
       write_year(list[i]);
     };
   }
-  var json = require('./data/publications.json'); 
-  console.log(json);
-  show(json)
 </script>
