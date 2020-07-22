@@ -55,7 +55,8 @@
   display: inline-block;
   margin: 0px;
   padding: 13px 1px;
-  height: 40px
+  height: 40px;
+  color: grey;
 }
 
 .but {
