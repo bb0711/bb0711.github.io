@@ -113,23 +113,18 @@
 
 </footer>
 </body>
-</html>
-<script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
   var publications = document.querySelector("#publication_list");
   //git에서 불러오기
-  var jqxhr = $.getJSON( 'https://github.com/bb0711/bb0711.github.io/blob/master/data/publications.json', function() {
-  console.log( "success" );
-})
-  .done(function() {
-    console.log( "second success" );
-  })
-  .fail(function() {
-    console.log( "error" );
-  })
-  .always(function() {
-    console.log( "complete" );
-  });
   
+  var rawbase = 'https://raw.githubusercontent.com/';
+  var jsonloc = 'wiheeju/data/blob/master/publications.json';
+
+  $.getJSON(rawbase + jsonloc, function( data ) {
+    console.log(data);
+    //do what you want with data
+  });
   var requestURL = './data/publications.json';//'https://github.com/ANLAB-KAIST/anlab/blob/master/files/publications.json'; 
   var request = new XMLHttpRequest();
   request.open('GET', requestURL);
@@ -159,3 +154,4 @@
     };
   }
 </script>
+</html>
