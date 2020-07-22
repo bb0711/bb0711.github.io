@@ -137,8 +137,8 @@
   request.send();
   request.onload = function() {
     var papers = request.response;
-    show(papers);
     console.log(papers);
+    show(papers);
   }
   
   function write_year(jsonobj){
