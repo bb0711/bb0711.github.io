@@ -124,11 +124,11 @@
   }
 
   $.ajax({
-    url: "https://github.com/wiheeju/data/blob/master/publications.json",
+    url: "https://raw.githubusercontent.com/wiheeju/data/master/publications.json",
     dataType: "jsonp"
   });
 
-  var requestURL = './data/publications.json';//'https://github.com/ANLAB-KAIST/anlab/blob/master/files/publications.json'; 
+  var requestURL = 'https://raw.githubusercontent.com/wiheeju/data/master/publications.json';
   var request = new XMLHttpRequest();
   request.open('GET', requestURL);
   request.responseType = 'json';
