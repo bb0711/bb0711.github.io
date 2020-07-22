@@ -118,14 +118,16 @@
 <script>
   var publications = document.querySelector("#publication_list");
   //git에서 불러오기
-  
-  var rawbase = 'https://github.com/';
-  var jsonloc = 'wiheeju/data/blob/master/publications.json';
 
-  $.getJSON(rawbase + jsonloc, function( data ) {
-    console.log(data);
-    //do what you want with data
+  function jsonCallback(json){
+  console.log(json);
+  }
+
+  $.ajax({
+    url: "https://github.com/wiheeju/data/blob/master/publications.json",
+    dataType: "jsonp"
   });
+
   var requestURL = './data/publications.json';//'https://github.com/ANLAB-KAIST/anlab/blob/master/files/publications.json'; 
   var request = new XMLHttpRequest();
   request.open('GET', requestURL);
