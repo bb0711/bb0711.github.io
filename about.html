@@ -6,12 +6,13 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.0.1">
-    <title>Blog Template · Bootstrap</title>
+    <title>ANLAB - ABOUT</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/">
 
     <!-- Bootstrap core CSS -->
-<link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <style>
       .bd-placeholder-img {
@@ -40,14 +41,14 @@
     <div class="row flex-nowrap justify-content-between align-items-center">
       
       <div class="col-4 text-left">
-        <a class="blog-header-logo text-dark" href="#">ANLAB</a>
+        <a class="blog-header-logo text-dark" href="index.html">ANLAB</a>
       </div>
       <div class="nav-scroller py-1 mb-1">
         <nav class="nav d-flex justify-content-between ">
-          <a class="p-4 text-secondary remove_underline" href="about.html">About</a>
+          <a class="p-4 text-secondary remove_underline" href="about.html"><b>About</b></a>
           <a class="p-4 text-secondary remove_underline" href="member.html">Member</a>
           <a class="p-4 text-secondary remove_underline" href="research.html">Research</a>
-          <a class="p-4 text-secondary remove_underline" href="publication.html"><b>Publications</b></a>
+          <a class="p-4 text-secondary remove_underline" href="publication.html">Publications</a>
           <a class="p-4 text-secondary remove_underline" href="courses.html">Courses</a>
         </nav>
       </div>
@@ -56,29 +57,85 @@
 
   
 
-  <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 background_img">
-    
-    <h3 class="py-3 text-center font-weight-bold "> Welcome to ANLAB !</h3>
-    
-    
-  </div>
-
 
 <main role="main" class="container">
+  <div class="intro">
+    <p>We seek to address fundamental rules </p>
+    <p>that govern today's Internet and</p>
+    <p>are to govern future Internet.</p>
+  </div>
   <div class="first_row">
-    <div class="col-sm-12 text-center">
-      description~~
-    </div>
     
+    <div class= first_sec" style="text-align: center;">
+    The Advanced Networking Laboratory engages in three broadly grouped research areas.<br>
+
+    1. measurement and infrastructure building for emerging media<br>
+    2. social networking services<br>
+    3. future Internet design. <br>
+    <br>
+    
+    We seek to address fundamental rules that govern today's Internet and are to govern future Internet, if ever built, through solid experimental and theoretical research.
+We recognize the importance of collaboration due to ever-expanding reaches of computer science disciplines, and work actively with researchers within and outside KAIST and abroad. 
+We encourage PhD students to work abroad during their PhD programs. 
+In the past students from our group have worked as interns and visitors at DIMACS (Center for Discrete Mathematics and Theoretical Computer Science) , AT&T Labs, Inc. - Research , Intel Research Cambridge, Microsoft Research Cambridge , Telefonica Research - Barcelona , and SysNet group at the University of California, San Diego.
+Our group is led by Professor Sue Moon and is supported by Oksil Kim in administration. 
+We have three major grants for the three main areas listed above and other sources of funding from both the government and the industry.
+</div> 
   </div>
 
+  <div class="line-behind"><span></span>
+    <h3 class="text-left title">
+      Contact Info.
+    </h3>
+  </div>
+
+  <div class="first_row" style="text-align: center;">
+    <b>If you are interested in our lab, please email to the prof. <u>sbmoon@kaist.edu</u></b><br>
+    <br>
+    Room #621 (Student Lab) / #608 (Prof. Office)<br>
+    IT Convergence Building (N1), KAIST<br>
+    Daehakro 291, Yuseong-gu, Daejeon <br>
+    305-701, Republic of Korea<br>
+    (TEL) +82-42-350-7748<br>
+  </div>
+
+<!-- * 카카오맵 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1569494368719" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+<!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1569494368719",
+		"key" : "v78k",
+		"mapWidth" : "738",
+		"mapHeight" : "360"
+	}).render();
+</script>
+
+</div>
 </main><!-- /.container -->
 
-<footer class="blog-footer">
-  <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-  <p>
-    <a href="#">Back to top</a>
-  </p>
+<footer>
+  <div class="footer_info">
+    Advanced Networking Laboratory <br>
+    Room #621 (Student Lab) / #608 (Prof. Office)<br>
+    IT Convergence Building (N1), KAIST<br>
+    Daehakro 291, Yuseong-gu, Daejeon <br>
+    305-701, Republic of Korea<br>
+    (TEL) +82-42-350-7748<br>
+  </div>
+
+  <div class="footer_hp_info">
+    © copyright 2020
+  </div>
+  
 </footer>
 </body>
 </html>
