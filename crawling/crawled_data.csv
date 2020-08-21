@@ -1,0 +1,134 @@
+year,title,writer,ws
+2020,Identifying and Quantifying Coordinated Manipulation of Upvotes and Downvotes in Naver News Comments,"J Jeong, J Kang, S Moon",Proceedings of the International AAAI Conference on Web and Social Media 14 …
+2020,Welcome.,"S Moon, A Nicholson, A Roychoudhury","Commun. ACM 63 (4), 44-46"
+2019,Enveloping Implicit Assumptions of Intrusive Data Structures within Ownership Type System,"K Lee, J Kang, W Yoon, J Kim, S Moon",Proceedings of the 10th Workshop on Programming Languages and Operating …
+2018,Elastic scaling of stateful network functions,"S Woo, J Sherry, S Han, S Moon, S Ratnasamy, S Shenker",15th {USENIX} Symposium on Networked Systems Design and Implementation …
+2017,Considerations on deploying high-performance container-based NFV,"DG Hong, J Shin, S Woo, S Moon","Proceedings of the 2nd Workshop on Cloud-Assisted Networking, 1-6"
+2017,Toward building memory-safe network functions with modest performance overhead,SB Moon,USENIX Security'17
+2017,Inter-event Time Distributions,"J Jeong, S Moon",
+2017,Changing News Media Landscape in South Korea,"H Lim, C Chung, J Kim, J Kim, S Moon, M Cha",Proceedings of the 26th International Conference on World Wide Web Companion …
+2017,Interval signature: Persistence and distinctiveness of inter-event time distributions in online human behavior,"J Jeong, S Moon",Proceedings of the 26th International Conference on World Wide Web Companion …
+2017,Knapp: A packet processing framework for manycore accelerators,"J Shim, J Kim, K Lee, S Moon",2017 IEEE 3rd International Workshop on High-Performance Interconnection …
+2017,Toward building memory-safe network functions with modest performance overhead,"K Lee, S Woo, S Seo, J Park, S Ryu, S Moon",ACM SIGCOMM Workshop NetPL 2017
+2017,Protego: Cloud-scale multitenant ipsec gateway,"J Son, Y Xiong, K Tan, P Wang, Z Gan, S Moon","2017 {USENIX} Annual Technical Conference ({USENIX}{ATC} 17), 473-485"
+2016,Dx: Latency-based congestion control for datacenters,"C Lee, C Park, K Jang, S Moon, D Han","IEEE/ACM Transactions on Networking 25 (1), 335-348"
+2016,Power of Earned Advertising on SNS: A Case Study of Friend Tagging on Facebook,"JY Park, Y Sohn, SB Moon",AAAI The 10th International Conference on Web and Social Media (ICWSM) 2016
+2016,Power of earned advertising on social network services: A case study of friend tagging on Facebook,"JY Park, Y Sohn, S Moon",Tenth International AAAI Conference on Web and Social Media
+2016,Exploring low-latency interconnect for scaling out software routers,"S Ma, J Kim, S Moon",2016 2nd IEEE International Workshop on High-Performance Interconnection …
+2016,СРЕДСТВА ИНФОРМАТИЗАЦИИ В СИСТЕМЕ ОБРАЗОВАНИЯ КАЗАХСТАНА,"C Fraleigh, S Moon, B Lyles, C Cotton, M Khan, D Moll, R Rockell","ББК 32.97 О 80, 43"
+2015,NBA (network balancing act) a high-performance packet processing framework for heterogeneous processors,"J Kim, K Jang, K Lee, S Ma, J Shim, S Moon","Proceedings of the Tenth European Conference on Computer Systems, 1-14"
+2015,An educational networking framework for full layer implementation and testing,"K Lee, J Kim, S Moon",Proceedings of the 46th ACM Technical Symposium on Computer Science …
+2015,Accurate latency-based congestion feedback for datacenters,"C Lee, C Park, K Jang, S Moon, D Han","2015 {USENIX} Annual Technical Conference ({USENIX}{ATC} 15), 403-415"
+2014,Invite your friends and get rewards: dynamics of incentivized friend invitation in kakaotalk mobile games,"J Jeong, S Moon","Proceedings of the second ACM conference on Online social networks, 151-160"
+2014,Inferring twitter user locations with 10 km accuracy,"KM Ryoo, S Moon","Proceedings of the 23rd International Conference on World Wide Web, 643-648"
+2013,Exploring the Solution Space of Community Detection Methods,"SB Moon, Y Sohn, J Ju, H Kwak",XXV IUPAP International Conference on Statistical Physics (STATPHYS25)
+2013,Tower of Babel: A Crowdsourcing Building Sentiment Lexicons for Resource-scarce Languages,"SB Moon, Y Hong, H Kwak, Y Baek",WORKSHOP ON MULTIDISCIPLINARY APPRAOCH TO BIG SOCIAL DATA ANALYSIS IN …
+2013,Sampling bias in user attribute estimation of OSNs,"H Park, S Moon","Proceedings of the 22nd International Conference on World Wide Web, 183-184"
+2013,Resolving homonymy with correlation clustering in scholarly digital libraries,"J Ju, H Park, S Moon","Proceedings of the 22nd International Conference on World Wide Web, 665-672"
+2013,Tower of babel: a crowdsourcing game building sentiment lexicons for resource-scarce languages,"Y Hong, H Kwak, Y Baek, S Moon","Proceedings of the 22nd International Conference on World Wide Web, 549-556"
+2013,System and method for extracting users of similar interests between various types of web servers,"SB Moon, HW Kwak, HY Shin, JI Yoon","US Patent 8,423,542"
+2013,A genealogy of information spreading on microblogs: A Galton-Watson-based explicative model,"D Wang, H Park, G Xie, S Moon, MA Kaafar, K Salamatian","2013 Proceedings IEEE INFOCOM, 2391-2399"
+2012,Reviving delay-based TCP for data centers,"C Lee, K Jang, S Moon","Proceedings of the ACM SIGCOMM 2012 conference on Applications, technologies …"
+2012,The Power of Batching in the Click Modular Router,"KS Park, J Kim, S Huh, K Jang, M Sue",ACM Asia-Pacific Workshop on Systems (ApSys 2012)
+2012,The power of batching in the click modular router,"J Kim, S Huh, K Jang, KS Park, S Moon","Proceedings of the Asia-Pacific Workshop on Systems, 1-6"
+2012,Visualizing a personal timeline by adding multiple social contexts,"H Kwak, Y Hong, J You, S Moon",Sixth International AAAI Conference on Weblogs and Social Media
+2012,More of a receiver than a giver: why do people unfollow in Twitter?,"H Kwak, S Moon, W Lee",Sixth International AAAI Conference on Weblogs and Social Media
+2012,Unmasking the growing UDP traffic in a campus network,"C Lee, DK Lee, S Moon","International Conference on Passive and Active Network Measurement, 1-10"
+2012,Modeling and predicting the popularity of online contents with Cox proportional hazard regression model,"JG Lee, S Moon, K Salamatian","Neurocomputing 76 (1), 134-145"
+2012,Using Delay-based TCP for Data Centers,"CH Lee, K Jang, S Moon","Proceedings of the Korean Information Science Society Conference, 430-432"
+2012,Social and behavioral sciences,"TK Tee, J Md Yunos, B Mohammad, W Othman, YM Heong, ...","The development and implementation of Buzan mind mapping module, 705-708"
+2012,Fragile Online Relationship: A First Look at Unfollow Dynamics in Twitter,"H Chun, S Moon","한국 HCI 학회 학술대회, 1694-1694"
+2011,Analysis of twitter unfollow: how often do people unfollow in twitter and why?,S Moon,"International Conference on Social Informatics, 7-7"
+2011,Placing relay nodes for intra-domain path diversity,"M Cha, S Moon, CD Park, A Shaikh",
+2011,""" Novel aspects coming from the directionality of online relationships: a case study of Twitter"" by Haewoon Kwak, Changhyun Lee, Hosung Park, Hyunwoo Chun and Sue Moon with …","H Kwak, C Lee, H Park, H Chun, S Moon","ACM SIGWEB Newsletter, 1-4"
+2011,Fragile online relationship: a first look at unfollow dynamics in twitter,"H Kwak, H Chun, S Moon",Proceedings of the SIGCHI Conference on Human Factors in Computing Systems …
+2011,SSLShader: Cheap SSL Acceleration with Commodity Processors.,"K Jang, S Han, S Han, SB Moon, KS Park","NSDI, 1-14"
+2011,Operating a link at 100%,"C Lee, DK Lee, Y Yi, SB Moon",PAM'11 Proceedings of the 12th international conference on Passive and …
+2011,Operating a network link at 100%,"C Lee, DK Lee, Y Yi, S Moon","International Conference on Passive and Active Network Measurement, 1-10"
+2011,Special Issue on Measurement Based Network Management,"BY Choi, Z Duan, S Moon","Journal of Network and Systems Management 19 (1), 3-6"
+2011,Scalable and systematic Internet-wide path and delay estimation from existing measurements,"DK Lee, K Jang, C Lee, G Iannaccone, S Moon","Computer Networks 55 (3), 838-855"
+2011,On next-generation telco-managed P2P TV architectures,"M Cha, P Rodriguez, S Moon, J Crowcroft",IPTPS'08 Proceedings of the 7th international conference on Peer-to-peer systems
+2010,System and method for estimating internet-wide transmission path and transmission delay,"M Sue, DK Lee, K Jang, CH Lee","US Patent 7,813,280"
+2010,"Redundant multicast routing in multilayer networks with shared risk resource groups: Complexity, models and algorithms","Z Liang, WA Chaovalitwongse, M Cha, SB Moon","Computers & Operations Research 37 (10), 1731-1739"
+2010,Online social networks,"M Faloutsos, T Karagiannis, S Moon","IEEE network 24 (5), 4-5"
+2010,An approach to model and predict the popularity of online contents with explanatory factors,"JG Lee, S Moon, K Salamatian",2010 IEEE/WIC/ACM International Conference on Web Intelligence and …
+2010,Accelerating ssl with gpus,"K Jang, S Han, S Han, S Moon, KS Park","ACM SIGCOMM Computer Communication Review 40 (4), 437-438"
+2010,PacketShader: a GPU-accelerated software router,"S Han, K Jang, KS Park, S Moon","ACM SIGCOMM Computer Communication Review 40 (4), 195-206"
+2010,Has internet delay gotten better or worse?,"DK Lee, K Cho, G Iannaccone, S Moon",Proceedings of the 5th International Conference on Future Internet …
+2010,Building a single-box 100 gbps software router,"S Han, K Jang, KS Park, S Moon","2010 17th IEEE Workshop on Local & Metropolitan Area Networks (LANMAN), 1-4"
+2010,Finding influentials based on the temporal order of information adoption in twitter,"C Lee, H Kwak, H Park, S Moon","Proceedings of the 19th international conference on World wide web, 1137-1138"
+2010,"What is Twitter, a social network or a news media?","H Kwak, C Lee, H Park, S Moon","Proceedings of the 19th international conference on World wide web, 591-600"
+2010,CASFI Data Sharing Platform,"N Aycirieix, S Moon","2010 IEEE Network Operations and Management Symposium-NOMS 2010, 711-723"
+2010,Path stitching: Internet-wide path and delay estimation from existing measurements,"DK Lee, K Jang, C Lee, G Iannaccone, S Moon","2010 Proceedings IEEE INFOCOM, 1-5"
+2010,Understanding topological mesoscale features in community mining,"S Moon, J You, H Kwak, D Kim, H Jeong",2010 Second International Conference on COMmunication Systems and NETworks …
+2010,Influentials ranking in social networks,"HS Park, HW Kwak, MY Cha, SB Moon",Communications of the Korean Institute of Information Scientists and …
+2010,Massively-parallel packet processing with gpus to accelerate software routers,"S Han, K Jang, KS Park, S Moon",Symp. on Networked Systems Design and Implementation
+2010,Dynamic Forwarding Table Management for High-speed GPU-based Software Routers,"J Kim, K Jang, S Han, KS Park, S Moon",USENIX Symposium on Operating Systems Design and Implementation (OSDI'10) Poster
+2009,Efficient and scalable provisioning of always-on multicast streaming services,"M Cha, WA Chaovalitwongse, J Yates, A Shaikh, S Moon","Computer Networks 53 (16), 2825-2839"
+2009,Mining communities in networks: a solution for consistency and its evaluation,"H Kwak, Y Choi, YH Eom, H Jeong, S Moon","Proceedings of the 9th ACM SIGCOMM conference on Internet measurement, 301-314"
+2009,Implementation and evaluation of a mobile planetlab node,"K Jang, S Kim, GM Voelker, S Moon","ROADS, October"
+2009,Best-case wibro performance for a single flow,"S Woo, K Jang, S Kim, S Cho, J Lee, Y Lee, S Moon",Proceedings of the 1st ACM workshop on Mobile internet through cellular …
+2009,3G and 3.5 G wireless network performance measured from moving cars and high-speed trains,"K Jang, M Han, S Cho, HK Ryu, J Lee, Y Lee, SB Moon",Proceedings of the 1st ACM workshop on Mobile internet through cellular …
+2009,Path stitching: Scalable and systematic internet-wide path and delay estimation from existing measurements,"D Lee, K Jang, C Lee, G Iannaccone, S Moon","Computer Science Department, KAIST, Tech. Rep. CS-TR-2009-313"
+2009,Internet SIBILLA on Path-Stitching-Based Delay Prediction g y,"DK Lee, K Jang, C Lee, S Moon, G Iannaccone",
+2009,Connecting Users with Similar Interests across Multiple Web Services.,"H Kwak, HY Shin, JI Yoon, SB Moon",ICWSM
+2009,Analyzing the video popularity characteristics of large-scale user generated content systems,"M Cha, H Kwak, P Rodriguez, YY Ahn, S Moon","IEEE/ACM Transactions on networking 17 (5), 1357-1370"
+2009,Mining communities in networks,"H Kwak, Y Choi, YH Eom, H Jeong, S Moon",ACM
+2009,Integer Linear Programs for Routing and Protection Problems in Optical Networks.,"M Cha, WA Chaovalitwongse, Z Liang, J Yates, A Shaikh, SB Moon","Encyclopedia of Optimization, 1610-1617"
+2008,Internet Sibilla: utilizing DNS for delay estimation service,"K Jang, DK Lee, S Moon, G Iannaccone","Proceedings of the 2008 ACM CoNEXT Conference, 1-2"
+2008,Comparison of online social relations in volume vs interaction: a case study of cyworld,"H Chun, H Kwak, YH Eom, YY Ahn, S Moon, H Jeong","Proceedings of the 8th ACM SIGCOMM conference on Internet measurement, 57-70"
+2008,Watching television over an IP network,"M Cha, P Rodriguez, J Crowcroft, S Moon, X Amatriain","Proceedings of the 8th ACM SIGCOMM conference on Internet measurement, 71-84"
+2008,Path Stitching: Internet-Wide Path and Delay Estimation,"DK Lee, C Lee, S Moon, G Iannaccone",
+2008,CASFI data sharing platform,"S Kang, N Aycirieix, H Kwak, S Kim, S Moon",PAM
+2008,Design considerations for a mobile testbed,"K Jang, S Woo, S Moon",CFI’08: Proceedings of the 3rd International Conference on Future Internet …
+2008,Evaluation of VoIP quality over WiBro,"M Han, Y Lee, S Moon, K Jang, D Lee","International Conference on Passive and Active Network Measurement, 51-60"
+2008,Goals and Blueprint for PlanetLab CJK,"M Chen, S Moon, A Nakao",Presentation at Conference for Future Internet
+2008,Improving delay estimation with path stitching,"DK Lee, K Jang, C Lee, S Moon, G Iannaccone",Proc. of Conference Future Internet
+2007,"I tube, you tube, everybody tubes: analyzing the world's largest user generated content video system","M Cha, H Kwak, P Rodriguez, YY Ahn, S Moon","Proceedings of the 7th ACM SIGCOMM conference on Internet measurement, 1-14"
+2007,"Analysis of point-to-point packet delay in an operational network, Computer Networks","BY Choi, S Moon, ZL Zhang, K Papagiannaki, C Diot",Elesevier
+2007,Analysis of point-to-point packet delay in an operational network,"BY Choi, S Moon, ZL Zhang, K Papagiannaki, C Diot","Computer networks 51 (13), 3812-3827"
+2007,Quantile sampling for practical delay monitoring in Internet backbone networks,"BY Choi, S Moon, R Cruz, ZL Zhang, C Diot","Computer Networks 51 (10), 2701-2716"
+2007,Analysis of topological characteristics of huge online social networking services,"YY Ahn, S Han, H Kwak, S Moon, H Jeong","Proceedings of the 16th international conference on World Wide Web, 835-844"
+2007,Passive and Active Network Measurement,"S Uhlig, K Papagiannaki, O Bonaventure","8th Internatinoal Conference, PAM 2007, Louvain-la-neuve, Belgium, April 5-6 …"
+2006,Forensic analysis of autonomous system reachability,"DK Lee, S Moon, T Choi, T Jeong","Proceedings of the 2006 SIGCOMM workshop on Mining network data, 335-340"
+2006,Collaborative blog spam filtering using adaptive percolation search,"S Han, YY Ahn, SB Moon, H Jeong","15th International workshop on peer-to-peer systems, 3rd Workshop on …"
+2006,Path protection routing with SRLG constraints to support IPTV in WDM mesh networks,"M Cha, WA Chaovalitwongse, Z Ge, J Yates, S Moon",Proceedings IEEE INFOCOM 2006. 25TH IEEE International Conference on …
+2006,Impact of snowball sampling ratios on network characteristics estimation: A case study of cyworld,"HW Kwak, SY Han, YY Ahn, S Moon, HW Jeong","Proceedings of the Korean Information Science Society Conference, 135-139"
+2006,Case study: Resilient backbone design for IPTV services,"M Cha, G Choudhury, J Yates, A Shaikh, SB Moon",Workshop on IPTV Services over World Wide Web held in conjunction with WWW2006
+2005,Practical delay monitoring for ISPs,"BY Choi, S Moon, R Cruz, ZL Zhang, C Diot",Proceedings of the 2005 ACM conference on Emerging network experiment and …
+2005,Small-time scaling behavior of Internet backbone traffic,"VJ Ribeiro, ZL Zhang, S Moon, C Diot","Computer Networks 48 (3), 315-334"
+2005,Positioning relay Nodes for path diversity in a tier-1 ISP network,"SB Moon, M Cha, CD Park, A Shaikh","IEEE INFOCOM 2005 (poster session), 0-0"
+2005,Positioning relay nodes in isp networks,"M Cha, S Moon, CD Park, A Shaikh",Proc. IEEE INFOCOM
+2005,Split-n-Save: Path multiplexing in wireless ad hoc routing,"M Cha, DK Lee, SB Moon","IEEE INFOCOM Student Workshop, 0-0"
+2004,Prefix-preserving IP address anonymization: measurement-based security evaluation and a new cryptography-based scheme,"J Fan, J Xu, MH Ammar, SB Moon","Computer Networks 46 (2), 253-272"
+2004,Presentation Structure: 1. Overview of Paper 2. Description of System 3. Discussion of Data Analysis Challenges 4. Discussion of Alternative Passive Monitoring Systems,"C Fraleigh, S Moon, B Lyles, C Cotton, M Khan, D Moll, B Rocknel, ...",
+2004,MULTIMEDIA’04: Proceedings of the 12th annual ACM international conference on Multimedia,"H Schulzrinne, N Dimitrova, MA Sasse, SB Moon, R Lienhart",ACM
+2003,Clock skew estimation and removal,"P Skelly, SB Moon, D Towsley","US Patent 6,661,810"
+2003,Packet-level traffic measurements from the Sprint IP backbone,"C Fraleigh, S Moon, B Lyles, C Cotton, M Khan, D Moll, R Rockell, T Seely, ...","IEEE network 17 (6), 6-16"
+2003,On the correlation between route dynamics and routing loops,"A Sridharan, SB Moon, C Diot","Proceedings of the 3rd ACM SIGCOMM conference on Internet measurement, 285-294"
+2003,Measurement and analysis of single-hop delay on an IP backbone network,"K Papagiannaki, S Moon, C Fraleigh, P Thiran, C Diot","IEEE Journal on Selected Areas in Communications 21 (6), 908-921"
+2003,Small-time scaling behaviors of Internet backbone traffic: an empirical study,"ZL Zhang, VJ Ribeiro, S Moon, C Diot",IEEE INFOCOM 2003. Twenty-second Annual Joint Conference of the IEEE …
+2002,Prefix-preserving ip address anonymization: Measurement-based security evaluation and a new cryptography-based scheme,"J Xu, J Fan, MH Ammar, SB Moon","10th IEEE International Conference on Network Protocols, 2002. Proceedings …"
+2002,Detection and analysis of routing loops in packet traces,"U Hengartner, S Moon, R Mortier, C Diot","Proceedings of the 2nd ACM SIGCOMM Workshop on Internet measurment, 107-112"
+2002,Routing loops: Detection and analysis of their impact on loss and delay,"U Hengartner, S Moon, R Mortier, C Diot","ACM Sigcomm, Proceedings of IMW"
+2002,Impact of aggregation on scaling behavior of Internet backbone traffic,"ZL Zhang, VJ Ribeiro, SB Moon, C Diot","Scalability and Traffic Control in IP Networks II 4868, 223-233"
+2002,Analysis of measured single-hop delay from an operational backbone network,"K Papagiannaki, S Moon, C Fraleigh, P Thiran, F Tobagi, C Diot",Proceedings. Twenty-First Annual Joint Conference of the IEEE Computer and …
+2002,Network monitoring and measurements: Techniques and experience,"S Bhattacharyya, S Moon",Tutorial at ACM Sigmetrics 2002
+2001,Packet-level traffic measurements from a tier-1 IP backbone,"C Fraleigh, S Moon, C Diot, B Lyles, F Tobagi",Sprint ATL Technical Report TR01-ATL
+2001,Design and deployment of a passive monitoring infrastructure,"C Fraleigh, C Diot, B Lyles, S Moon, P Owezarski, D Papagiannaki, ...","Thyrrhenian Internatinal Workshop on Digital Communications, 556-575"
+2001,On the Design and Performance of Prefix-Preserving IP Traffic Trace Anonymization,"J Xu, J Fan, M Ammar, SB Moon, ATL Sprint",
+2001,Metadata management of terabyte datasets from an IP backbone network: experience and challenges,"S Moon, T Roscoe",Proceedings of Workshop on Network-Related Data Management (NRDM)
+2001,Internet Traffic Measurement,S Moon,KRnet
+2001,On the Design and Performance of Prefix-Preserving IP Traffic Trace Anonymization,"JXJFMH Ammar, SB Moon",Proc. Fourth ACM SIGCOMM Conf. Internet Measurement 10 (505202.505234)
+2000,The use of end-to-end multicast measurements for characterizing internal network behavior,"A Adams, T Bu, T Friedman, J Horowitz, D Towsley, R Cáceres, N Duffield, ...","IEEE Communications magazine 38 (5), 152-159"
+2000,Measurement and Analysis of End-to-end Delay and Loss in the Internet,SB Moon,University of Massachusetts at Amherst
+1999,Inference of internal loss rates in the MBone,"R Cáceres, NG Duffield, SB Moon, D Towsley",Seamless Interconnection for Universal Services. Global Telecommunications …
+1999,Inferring link-level performance from end-to-end multicast measurements,"R Cáceres, NG Duffield, SB Moon, D Towsley","Global Internet, Rio de Janiero"
+1999,Estimation and removal of clock skew from network delay measurements,"SB Moon, P Skelly, D Towsley",IEEE INFOCOM'99. Conference on Computer Communications. Proceedings …
+1999,"""Measurement and modelling of the temporal dependence in packet loss""","M Yajnik, S Moon, J Kurose, D Towsley",Eighteenth Annual Joint Conference of the IEEE Computer and Communications …
+1998,Correlation of Packet Delay and Loss in the Internet TITLE2,"SB Moon, J Kurose, P Skelly, D Towsley",University of Massachusetts
+1998,Packet audio playout delay adjustment: performance bounds and algorithms,"SB Moon, J Kurose, D Towsley","Multimedia systems 6 (1), 17-28"
+1998,Innovation and regional development: a digression through the literature,JC Ribeiro,Elsevier Ltd.
+1998,Correlation of packet delay and loss in the Internet,"SB Moon, J Kurose, P Skelly, D Towsley","Technical report, UMass CMPSCI Technical Report 98-11"
+1997,Synchronized two-way voice simulation tool for internet phone performance analysis and evaluation,"AE Conway, SB Moon, P Skelly",International Conference on Modelling Techniques and Tools for Computer …
+1995,Exposición general,"C Lee, H Kwak, H Park, S Moon",Revista Internacional del Trabajo
