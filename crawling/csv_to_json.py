@@ -55,6 +55,9 @@ for year in years:
     arr[year] = {"year": str(year), 'publications':[]}
 
 for i, row in data.iterrows():
+    if row.ws != row.ws:
+        row.ws = ""
+
     arr[row['year']]['publications'].append(
         {
             "title": row.title,
@@ -67,8 +70,7 @@ for i, row in data.iterrows():
 final = list(arr.values())
 #print(final)
 
-json_val = json.dumps(final)
-#print(json_val)
+json_val = json.loads(json.dumps(final, ))
 
 with open('real_publications.json', 'w') as f:
-    json.dump(json_val,f)
+    json.dump(json_val,f,indent=4,)

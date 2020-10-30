@@ -47,8 +47,9 @@
 
 /* contents */
 .title{
-  font-size: 1.4rem;
-  padding: 15px 15px 0px;
+  font-size: 1.0rem;
+  font-weight: bold;
+  padding: 35px 15px 0px;
   color: var(--blue);
 }
 
@@ -56,7 +57,7 @@
   height:50px;
   margin-left: auto;
   margin-right: auto;
-  width:450px;
+  width:470px;
   font-size: 0.9rem;
 }
 
@@ -118,12 +119,11 @@
 div.line-behind {
   width: auto;
   position: relative;
-  text-align: center;
-  padding: 40px;
+  padding: 20px;
 }
 span {
   content: " ";
-  border-top: 1px solid darkgray;
+  border-top: 0px solid darkgray;
   position: absolute;
   width: 100%;
   top: 50%;
@@ -137,11 +137,18 @@ span {
 
 
 .people{
-  width: 100%;
+  width: 45%;
   font-size: 0.9rem;
-  padding: 10px;
+  padding: 10px 0px 10px 40px;
   display: inline-block;
+  float:left;
 }
+
+.peoplelist{
+  font-size: 0.9rem;
+  padding: 10px 0px 10px 40px;
+}
+
 .people div p{
   margin: 0.2px;
   padding-left: 10px;

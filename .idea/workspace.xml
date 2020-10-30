@@ -16,7 +16,13 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="497c37cc-2225-4004-bde5-1316f2b0a188" name="Default Changelist" comment="" />
@@ -81,33 +87,59 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1602839540939">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1615" height="265" key="GridCell.Tab.0.bottom" timestamp="1604036048717">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1602839540939" />
-    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1602839540939">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1603873763636" />
+    <state width="1615" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1604036048717" />
+    <state width="1615" height="265" key="GridCell.Tab.0.center" timestamp="1604036048717">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1602839540939" />
-    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1602839540939">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1603873763636" />
+    <state width="1615" height="265" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1604036048717" />
+    <state width="1615" height="265" key="GridCell.Tab.0.left" timestamp="1604036048717">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1602839540939" />
-    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1602839540939">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1603873763636" />
+    <state width="1615" height="265" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1604036048717" />
+    <state width="1615" height="265" key="GridCell.Tab.0.right" timestamp="1604036048717">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1602839540939" />
-    <state x="775" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602839556847">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1603873763636" />
+    <state width="1615" height="265" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1604036048717" />
+    <state x="2446" y="491" key="VCS.EditChangelistDialog" timestamp="1603875580259">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2446" y="491" key="VCS.EditChangelistDialog/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1603875580259" />
+    <state x="2695" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604035944898">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="775" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1602839556847" />
+    <state x="2695" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1604035944898" />
+    <state x="2355" y="217" width="586" height="804" key="find.popup" timestamp="1604031282143">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2355" y="217" width="586" height="804" key="find.popup/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1604031282143" />
     <state x="623" y="299" key="search.everywhere.popup" timestamp="1602838610940">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>

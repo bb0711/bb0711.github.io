@@ -3,6 +3,6 @@
     "",
     "\\crawling"
   ],
-  "SelectedNode": "\\crawling\\crawled_data.csv",
+  "SelectedNode": "\\crawling\\csv_to_json.py",
   "PreviewInSolutionExplorer": false
 }
