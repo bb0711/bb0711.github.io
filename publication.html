@@ -181,8 +181,8 @@
   var publications = document.querySelector("#publication_list");
   
   //git에서 불러오기
-  //var requestURL = 'https://raw.githubusercontent.com/wiheeju/data/master/real_publications.json';
-  var requestURL = './crawling/real_publications.json'
+  var requestURL = 'https://raw.githubusercontent.com/wiheeju/data/master/real_publications.json';
+  //var requestURL = './crawling/real_publications.json'
   var request = new XMLHttpRequest();
   request.open('GET', requestURL);
   request.responseType = 'text';
