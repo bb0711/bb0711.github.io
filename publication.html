@@ -1,12 +1,12 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.0.1">
-    
+
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/">
 
@@ -17,119 +17,163 @@
     <title>ANLAB</title>
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
-      }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
     </style>
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Maven+Pro:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Source+Code+Pro:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+
+
     <!-- Custom styles for this template -->
     <link href="blog.css" rel="stylesheet">
-  </head>
+</head>
   <body>
-    <div class="container">
-  <header class="blog-header py-3">
-    <div class="row flex-nowrap justify-content-between align-items-center">
-      
-      <div class="col-4 text-left">
-        <a class="blog-header-logo text-dark" href="index.html">
-          <div class="logo">
-            <img src="./data/anlab_logo.png" style="width: 100%; max-width: 760px; vertical-align: middle" />
-        </div>
-        </a>
-      </div>
-      <div class="nav-scroller py-1 mb-1">
-        <nav class="nav d-flex justify-content-between ">
-          <a class="p-4 text-secondary remove_underline" href="about.html">About</a>
-          <a class="p-4 text-secondary remove_underline" href="member.html">Member</a>
-          <a class="p-4 text-secondary remove_underline" href="research.html">Research</a>
-          <a class="p-4 text-secondary remove_underline" href="publication.html"><b>Publications</b></a>
-          <a class="p-4 text-secondary remove_underline" href="courses.html">Courses</a>
-        </nav>
-      </div>
+      <div class="container">
+          <header class="blog-header py-3">
+              <div class="row flex-nowrap align-items-center">
+
+                  <div class="col-4 text-left">
+                      <a class="blog-header-logo text-dark" href="index.html">
+                          <div class="logo">
+                              <img src="./data/anlab_logo.png" style="width: 100%; max-width: 760px; vertical-align: middle" />
+                          </div>
+                      </a>
+                  </div>
+                  <div class="nav-scroller py-1 mb-1">
+                      <nav class="nav d-flex justify-content-between ">
+                          <a class="p-4 text-secondary remove_underline" href="about.html">About</a>
+                          <a class="p-4 text-secondary remove_underline" href="member.html">Member</a>
+                          <a class="p-4 text-secondary remove_underline" href="research.html">Research</a>
+                          <a class="p-4 text-secondary remove_underline" href="publication.html"><b>Publications</b></a>
+                          <a class="p-4 text-secondary remove_underline" href="courses.html">Courses</a>
+                      </nav>
+                  </div>
+              </div>
+          </header>
+
+
+          <main role="main" class="">
+              <div class="first_row" style="margin-bottom:20px;border-bottom:none;">
+                  <div class="col-sm-12 text-left title">
+                      Publications
+                  </div>
+
+                  <div class="col-sm-12 text-centerv researh_field">
+
+                      <div class=field_button1>
+                          Research Field
+                      </div>
+
+                      <div class="field_button">
+                          <div class="but">
+                              <input type="radio" id="all" value="all" name="field" checked="checked" />
+                              <label for="all">All</label>
+                          </div>
+                          <div class="but">
+                              <input type="radio" id="sys" value="sys" name="field" />
+                              <label for="sys">System Network</label>
+                          </div>
+                          <div class="but">
+                              <input type="radio" id="data" value="data" name="field" />
+                              <label for="data">Online Social Network</label>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-sm-12 text-centerv researh_field">
+
+                      <div class=field_button1>
+                          Publication Year
+                      </div>
+
+                      <div class="year_button">
+                          <!--
+    <div class="but">
+        <input type="radio" id="ally" value="ally" name="year" checked="checked" />
+        <label for="ally">all</label>
     </div>
-  </header>
+      -->
+                          <div class="but">
+                              <input type="radio" id="2020y" value="2020" name="year" />
+                              <label for="2020y">2020</label>
+                          </div>
+                          <div class="but">
+                              <input type="radio" id="2017y" value="2017" name="year" />
+                              <label for="2017y">2017</label>
+                          </div>
+
+                          <div class="but">
+                              <input type="radio" id="2016y" value="2016" name="year" />
+                              <label for="2016y">2016</label>
+                          </div>
+                          <div class="but">
+                              <input type="radio" id="2015y" value="2015" name="year" />
+                              <label for="2015y">2015</label>
+                          </div>
+                          <div class="but">
+                              <input type="radio" id="2014y" value="2014" name="year" />
+                              <label for="2014y">2014</label>
+                          </div>
+                          <div class="but">
+                              <input type="radio" id="2013y" value="2013" name="year" />
+                              <label for="2013y">2013</label>
+                          </div>
+                          <div class="but">
+                              <input type="radio" id="2012y" value="2012" name="year" />
+                              <label for="2012y">~2012</label>
+                          </div>
+
+                      </div>
+
+                  </div>
 
 
-<main role="main" class="container">
-  <div class="first_row">
-    <div class="col-sm-12 text-left title">
-      Publications
-    </div>
-    <div class="col-sm-12 text-centerv researh_field">
-      
-      <div class=field_button1>
-        Research Field     
+              </div>
+              <div class="col-sm-12 text-centerv" id="publication_list"></div>
+
+
+
+          </main><!-- /.container -->
+          </div>
+    <!--<footer>
+
+
+      <script>
+        $( "footer" ).load( "./footer.html" );
+      </script>
+
+    </!-footer>-->
+          <footer>
+              <div class="footer_info">
+                  Advanced Networking Laboratory <br>
+                  Room #621 (Student Lab) / #608 (Prof. Office)<br>
+                  IT Convergence Building (N1), KAIST<br>
+                  Daehakro 291, Yuseong-gu, Daejeon <br>
+                  305-701, Republic of Korea<br>
+                  (TEL) +82-42-350-7748<br>
+              </div>
+
+              <div class="footer_hp_info">
+                  © copyright 2020
+              </div>
+
+          </footer>
       </div>
-       
-      <div class="field_button">
-        <div class="but">
-          <input type="radio" id="all" value="all" name="field" checked="checked" />
-          <label for="all">all</label>
-        </div>
-        <div class="but">
-          <input type="radio" id="sys" value="sys" name="field" />
-          <label for="sys">system network</label>
-        </div>
-        <div class="but">
-          <input type="radio" id="data" value="data" name="field" />
-          <label for="data">online social network</label>
-        </div>
-      </div> 
-    </div>
-
-    <!--
-    <div class="col-sm-12 text-centerv researh_field">
-      
-      <div class=field_button1>
-        Publication Year   
-      </div>
-       
-      <div class="field_button">
-        <div class="but">
-          <input type="radio" id="all" value="all" name="year" checked="checked" />
-          <label for="all">all</label>
-        </div>
-        <div class="but">
-          <input type="radio" id="2020" value="2020" name="year" />
-          <label for="2020">2020</label>
-        </div>
-        <div class="but">
-          <input type="radio" id="2019" value="2019" name="year" />
-          <label for="2019">2019</label>
-        </div>
-      </div>
-
-    </div>
-    -->
-
-</div>
-    <div class="col-sm-12 text-centerv" id="publication_list"></div>
-
-
-
-</main><!-- /.container -->
-
-<footer>
-
-
-  <script>
-    $( "footer" ).load( "./footer.html" );
-  </script>
-
-</footer>
-  </div>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -137,7 +181,8 @@
   var publications = document.querySelector("#publication_list");
   
   //git에서 불러오기
-  var requestURL = 'https://raw.githubusercontent.com/wiheeju/data/master/real_publications.json';
+  //var requestURL = 'https://raw.githubusercontent.com/wiheeju/data/master/real_publications.json';
+  var requestURL = './crawling/real_publications.json'
   var request = new XMLHttpRequest();
   request.open('GET', requestURL);
   request.responseType = 'text';
@@ -146,26 +191,76 @@
     var papers = JSON.parse(request.response);
     console.log(papers);
     show(papers);
-  }
+    }
 
-  $(function() {
-    $('input:radio[name="field"]').change(function() {
+
+    
+
+    // research field -> remove others
+    $(function () {
+        $('input:radio[name="year"]').change(function () {
+            console.log(this);
+            var year = $(this).val();
+            console.log(year);
+            goToByScroll(year);
+            $('input:radio[name="year"]').prop("checked", false);
+        })
+
+      $('input:radio[name="field"]').change(function () {
+        var yearlist = $('#publication_list > div');
         if ($(this).val() == 'all') {
+            $('#publication_list > div').each(function () {
+                var n = $("div[class= 'papers']", this).length;
+                $(this).show(00);
+                })
+
             $(".1").show(200); //show in 200ms = 0.2s
             $(".2").show(200);
         } 
-        else if ($(this).val() == 'sys'){
+        else if ($(this).val() == 'sys') {
+
+            $('#publication_list > div').each(function () {
+                var n = $("div[class= 'papers 1']", this).length;
+
+                if (n == 0) {
+                    $(this).hide(00);
+                } else {
+                    $(this).show(00);
+                }
+            })
+
             $(".1").show(200);
             $(".2").hide(200);
         }
-        else if ($(this).val() == 'data'){
+        else if ($(this).val() == 'data') {
+
+            $('#publication_list > div').each(function () {
+                var n = $("div[class= 'papers 2']", this).length;
+                console.log(n);
+                if (n == 0) {
+                    $(this).hide(00);
+                } else {
+                    $(this).show(00);
+                }
+
+            })
+
             $(".1").hide(200);
             $(".2").show(200);
+
         }
     });
 });
 
-  function show_2(str){
+
+    function goToByScroll(id) {
+        // Scroll
+        $('html,body').animate({
+            scrollTop: $("#" + id).offset().top
+        }, 'slow');
+    }
+
+  function show_2(str) {
     var class1 = document.getElementsByClassName('1');
     var class2 = document.getElementsByClassName('2');
   }
@@ -182,14 +277,19 @@
     year.id = jsonobj["year"];
     year.innerText= jsonobj["year"]; 
     publications.appendChild(year);
+
+    return year;
   }
-  function write_paper(jsonobj){
+
+    function write_paper(jsonobj, year_div) {
+
     var paper= document.createElement('div');
     paper.className='papers';
     paper.classList.add(jsonobj['section'] );
     var title = document.createElement('div');
     title.className='paper_title';
     title.innerText = jsonobj['title'];
+
     var writer = document.createElement('div');
     writer.className='paper_writer';
     writer.innerText = jsonobj['writer'];
@@ -205,29 +305,31 @@
       var pdf = document.createElement('div');
       pdf.className='attaches pdf';
       pdf.innerHTML='<a href='+ jsonobj['pdf'] +'>pdf</a>';
-      paper.appendChild(pdf);
+      title.appendChild(pdf);
     }
     if(jsonobj.hasOwnProperty("poster")){
       var poster = document.createElement('div');
       poster.className='attaches poster';
       poster.innerHTML='<a href='+ jsonobj['poster'] +'>poster</a>';
-      paper.appendChild(poster);
+      title.appendChild(poster);
     }
     if(jsonobj.hasOwnProperty("ppt")){
       var ppt = document.createElement('div');
       ppt.className='attaches ppt';
       ppt.innerHTML='<a href='+ jsonobj['ppt'] +'>ppt</a>';
-      paper.appendChild(ppt);
+      title.appendChild(ppt);
     }
-    publications.appendChild(paper);
+    year_div.appendChild(paper);
 
   }
   function show(jsonobj){
     var list = jsonobj;
     for (var i=0; i<list.length; i++){
-      write_year(list[i]);
+      //write_year(list[i]);
+        console.log(i,list[i]);
+      var year_div = write_year(list[i]);
       for (var j=0; j<list[i]["publications"].length; j++){
-        write_paper(list[i]['publications'][j]);
+        write_paper(list[i]['publications'][j], year_div);
       }
       
     };

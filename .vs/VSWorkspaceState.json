@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\crawling"
+    "\\crawling",
+    "\\papers",
+    "\\papers\\2016"
   ],
-  "SelectedNode": "\\crawling\\csv_to_json.py",
+  "SelectedNode": "\\publication_act.js",
   "PreviewInSolutionExplorer": false
 }

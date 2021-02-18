@@ -2,16 +2,28 @@
   --blue: #4169E1;
 }
 
-
-
-.container{
-  font-family: 'Barlow', sans-serif;
+.row{
+    margin-right: 0;
+}
+.container {
+    font-family: 'Barlow', sans-serif;
+    padding-top: 100px !important;
 }
 
+
 .blog-header {
-  line-height: 1;
-  font-family: 'Archivo Black', sans-serif !important;
-  /*border-bottom: 3px solid #e5e5e5;*/
+    Z-INDEX: 100;
+    line-height: 1;
+    POSITION: FIXED;
+    TOP: 0PX;
+    HEIGHT: 85PX;
+    WIDTH: 100%;
+    left: 0;
+    padding-left: 20%;
+    BACKGROUND-COLOR: WHITE;
+    font-family: 'Archivo Black', sans-serif !important;
+    font-family: 'Maven Pro', monospace !important;
+    /*border-bottom: 3px solid #e5e5e5;*/
 }
 
 .blog-header-logo {
@@ -27,55 +39,88 @@
   padding-bottom: 0px !important;
 }
 
+.pt-3, .py-3 {
+    padding-top: 2rem !important;
+}
+
 
 
 /*about*/
-.intro{
-  margin: 60px 30px;
-  font-size: 2.7rem;
-  text-align: center;
-  font-family: 'Archivo Black', sans-serif !important;
-  font-style: italic;
-  font-weight: bold;
-
+.intro {
+    margin: 0px 5px;
+    font-family: 'Archivo Black', sans-serif !important;
+    font-style: italic;
+    font-weight: bold;
+    background-image: url('./data/clock_img_cr2.jpg');
+    background-size: cover;
+    height: 350px;
+    color: white;
+    font-size: 1.9rem;
+    line-height: 2.25rem;
+    font-family: 'Cabin', sans-serif !important;
 }
 .intro p{
   padding:0px;
   margin-bottom: 0px !important;
 }
+span.index {
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    top: 140px;
+    z-index: 20;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.first_row {
+    margin-top: 0;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.first_sec{
+    margin-top:3rem;
+}
 
 
 /* contents */
 .title{
-  font-size: 1.0rem;
+  font-size: 1.3rem;
   font-weight: bold;
   padding: 35px 15px 0px;
   color: var(--blue);
 }
 
+
 .researh_field{
-  height:50px;
-  margin-left: auto;
+  height:30px;
+  margin-left: 20px;
   margin-right: auto;
-  width:470px;
+  width:720px;
   font-size: 0.9rem;
 }
 
 .field_button {
-     
-  display:inline-block;
-  margin:5px 0 0 0;
-  padding: 1px 5px;
-  height:40px;
-     
+    display: inline-block;
+    margin: 5px 0 0 0;
+    padding: 1px 5px;
+    height: 30px;
 }
-.field_button1{
-  float: left;
-  display: inline-block;
-  margin: 0px;
-  padding: 13px 1px;
-  height: 40px;
-  color: grey;
+ .year_button {
+    display: inline-block;
+    margin: 5px 0 0 0;
+    padding: 1px 5px;
+    height: 30px;
+}
+.field_button1 {
+    float: left;
+    display: inline-block;
+    margin: 0px;
+    padding: 10px 1px;
+    height: 30px;
+    color: grey;
+    width: 110px;
 }
 
 .but {
@@ -102,24 +147,75 @@
 }
 
 .field_button label {
-     padding: 0 7px;
-     border:2px solid grey;
-     color: grey;
-     border-radius:5px;
-     cursor:pointer;
-      z-index:90;
-
+    padding: 0 7px;
+    border: 1.5px solid #8080801f;
+    color: #545454;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 90;
 }
 
-.field_button label:hover {
-     filter:brightness(85%);
-     
+    .field_button label:hover {
+        background: #8080801f;
+        border-color: white;
+    }
+
+
+.year_button label, .year_button input {
+}
+
+    .year_button input[type="radio"] {
+        opacity: 0.011;
+        z-index: 100;
+        width: 0px;
+    }
+
+        .year_button input[type="radio"]:checked + label {
+            background: grey;
+            color: white;
+        }
+
+.year_button label {
+    padding: 0 7px;
+    border: 1.5px solid #8080801f;
+    color: #545454;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 90;
+}
+
+    .year_button label:hover {
+        /*filter: brightness(85%);*/
+        background: #8080801f;
+        border-color: white;
+    }
+
+/* research */
+.research_block {
+    width: auto;
+    padding: 20px;
+    border-bottom: 4px solid #8080801f;
+}
+.research_photo{
+    width: 400px;
+    height:300px;
+    margin: 15px;
+    display: inline-block;
+}
+.research_text {
+    display: inline-block;
+    position: absolute;
+    padding: 20px;
+}
+.research_title {
+    font-weight:bold;
+    font-size: 1.8rem;
 }
 /*people*/
 div.line-behind {
-  width: auto;
-  position: relative;
-  padding: 20px;
+    width: auto;
+    position: relative;
+    padding: 20px;
 }
 span {
   content: " ";
@@ -133,26 +229,27 @@ span {
 .line-behind .title {
   background-color:#fff;
   display:inline-block;
+  width: 800px;
 }
 
 
 .people{
-  width: 45%;
-  font-size: 0.9rem;
+  width: 85%;
+  font-size: 1.0rem;
   padding: 10px 0px 10px 40px;
   display: inline-block;
   float:left;
 }
 
 .peoplelist{
-  font-size: 0.9rem;
+  font-size: 1.0rem;
   padding: 10px 0px 10px 40px;
 }
 
 .people div p{
   margin: 0.2px;
   padding-left: 10px;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 .people .role{
   color:grey;
@@ -180,19 +277,20 @@ span {
   margin-left: 10px;
   margin-bottom: 5px;
   border-radius: 0px !important;
+  position: relative;
+  z-index:1;
 }
 
 /*publication*/
 .papers{
   font-size:0.8rem;
-  padding:5px 10px;
+  padding:6px 10px;
   display:block;
 }
-.paper_title{
-  font-weight: bold;
-  color:var(--blue);
-  font-size:1.0rem;
-  
+.paper_title {
+    font-weight: bold;
+    color: #020b25;
+    font-size:1.0rem;
 }
 .paper_writer{
   font-weight:bold;
@@ -201,18 +299,20 @@ span {
   color:grey;
   display: inline-block;
 }
-.paper_year{
-  font-size: 1.2rem;
-  color: lightslategray;
-  padding: 14px 0 0 0px;
-  margin: 10px 0;
-  border-top: 2px solid #7788993b;
+.paper_year {
+    font-size: 1.2rem;
+    color: lightslategray;
+    padding: 20px 0 25px 0px;
+    margin: 0px 10px;
+    border-top: 2px solid #7788993b;
 }
-.attaches{
-  display: inline-block;
-  color:white;
-  border-radius: 1rem;
-  margin: 0 5px;
+.attaches {
+    display: inline-block;
+    color: white;
+    border-radius: 1rem;
+    font-size: 0.7rem; !important;
+    font-weight: normal; !important;
+    margin: 0 0 0 6px;
 }
 .attaches.pdf{
   background-color: palevioletred;
@@ -255,15 +355,17 @@ span {
 }
 
 .nav-scroller {
-  position: relative;
-  z-index: 2;
-  height: 2.75rem;
-  overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+
+    flex: 0 0 45%;
+    left:50%
 }
 .remove_underline{
   text-decoration: none !important;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   
 }
 .remove_underline:hover{
@@ -281,6 +383,8 @@ span {
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+
+  padding-right:200px;
   
 }
 
