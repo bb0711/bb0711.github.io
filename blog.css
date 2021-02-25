@@ -5,9 +5,15 @@
 .row{
     margin-right: 0;
 }
+.container_home {
+    font-family: 'Barlow', sans-serif;
+    max-width:2400px;
+    padding: 100px 0px 0px !important;
+}
+
 .container {
     font-family: 'Barlow', sans-serif;
-    padding-top: 100px !important;
+    padding-top: 100px!important;
 }
 
 
@@ -49,14 +55,13 @@
 .intro {
     margin: 0px 5px;
     font-family: 'Archivo Black', sans-serif !important;
-    font-style: italic;
     font-weight: bold;
     background-image: url('./data/clock_img_cr2.jpg');
     background-size: cover;
     height: 350px;
     color: white;
-    font-size: 1.9rem;
-    line-height: 2.25rem;
+    font-size: 2.8rem;
+    line-height: 2.7rem;
     font-family: 'Cabin', sans-serif !important;
 }
 .intro p{
@@ -67,11 +72,11 @@ span.index {
     vertical-align: middle;
     position: relative;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 25%;
     top: 140px;
     z-index: 20;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    text-shadow: 2px 2px 4px #000000;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 2px 2px 4px #000000;*/
 }
 
 .first_row {
@@ -80,8 +85,14 @@ span.index {
     font-size: 1.1rem;
 }
 
-.first_sec{
-    margin-top:3rem;
+.first_sec {
+    padding: 2rem 4rem 2rem;
+    max-width: 1200px;
+    margin: 2rem auto 5rem;
+    border-radius: 15px;
+    border-left: 6px solid;
+    border-right: 6px solid;
+    border-color: #f1ae68;
 }
 
 
